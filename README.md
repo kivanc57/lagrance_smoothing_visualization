@@ -18,7 +18,7 @@
 
 2. **Navigate to the project directory**:  
     ```bash
-    cd cd lagrance_smoothing_visualization
+    cd lagrance_smoothing_visualization
     ```
 
 3. **Install any required dependencies (if applicable)**.
