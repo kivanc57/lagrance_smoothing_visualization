@@ -13,17 +13,20 @@
 ## Installation
 1. **Clone the repository**: 
     ```bash
-    git clone https://github.com/yourusername/restaurant_management_system.git
+    git clone https://github.com/yourusername/lagrance_smoothing_visualization.git
+    
     ```
 
 2. **Navigate to the project directory**:  
     ```bash
-    cd restaurant_management_system
+    cd cd lagrance_smoothing_visualization
+    
     ```
 
 3. **Install any required dependencies (if applicable)**.
     ```bash
     pip install -r requirements.txt
+    
     ```
 
 ## Usage  
@@ -33,23 +36,9 @@
     ```bash
     python main.py
     ```
-- **config/**: Contains configuration files.
-  - ***\__init__.py***: Imports constants for game configuration.
-  - ***constants.py***: Defines constants used throughout the application.
-
-- **src/**: Contains source code files.
-  - ***\__init__.py***: Initializes the source package, sets up logging, and imports main functions and constants.
-  - ***generate_map.py***: Generates the initial game map with random values and missing values.
-  - ***lagrance_smoothing.py***: Applies Lagrance smoothing to the game map.
-  - ***visualization.py***: Visualizes the game map at each step of the smoothing process.
-
-- ***.gitattributes***: Ensures consistent line endings across different operating systems in the repository.
-
-- ***.gitignore***: Specifies files and directories to be ignored by Git (e.g., virtual environments, build artifacts).
-
+3. Follow the on-screen prompts to observe the Lagrance smoothing process and visualize the game map.
 
 # Project Structure
-
 ```markdown
 📁 project-root
 ├── 📁 config
@@ -66,6 +55,19 @@
 ├── 📄 .gitignore
 └── 📄 main.py
 ```
+- **config/**: Contains configuration files.
+  - ***\__init__.py***: Imports constants for game configuration.
+  - ***constants.py***: Defines constants used throughout the application.
+
+- **src/**: Contains source code files.
+  - ***\__init__.py***: Initializes the source package, sets up logging, and imports main functions and constants.
+  - ***generate_map.py***: Generates the initial game map with random values and missing values.
+  - ***lagrance_smoothing.py***: Applies Lagrance smoothing to the game map.
+  - ***visualization.py***: Visualizes the game map at each step of the smoothing process.
+
+- ***.gitattributes***: Ensures consistent line endings across different operating systems in the repository.
+
+- ***.gitignore***: Specifies files and directories to be ignored by Git (e.g., virtual environments, build artifacts).
 
 ## Code Examples
 ### Main Program
