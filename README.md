@@ -14,19 +14,16 @@
 1. **Clone the repository**: 
     ```bash
     git clone https://github.com/yourusername/lagrance_smoothing_visualization.git
-    
     ```
 
 2. **Navigate to the project directory**:  
     ```bash
     cd cd lagrance_smoothing_visualization
-    
     ```
 
 3. **Install any required dependencies (if applicable)**.
     ```bash
     pip install -r requirements.txt
-    
     ```
 
 ## Usage  
@@ -55,6 +52,7 @@
 ├── 📄 .gitignore
 └── 📄 main.py
 ```
+
 - **config/**: Contains configuration files.
   - ***\__init__.py***: Imports constants for game configuration.
   - ***constants.py***: Defines constants used throughout the application.
