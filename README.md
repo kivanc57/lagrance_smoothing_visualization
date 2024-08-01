@@ -1,14 +1,19 @@
 # Lagrance Smoothing Visualization
 
-## Overview
+## Overview 🔥
 
 **Lagrance Smoothing Visualization** is a Python-based application designed to generate a random game map, apply Lagrance smoothing to adjacent numerical values, and visualize the process at each step. The application provides an interactive way to understand the smoothing algorithm and its effects on the data.
 
 ## Features
 
-- **Game Map Generation:** Creates a game map with random values and specified missing values.
-- **Lagrance Smoothing:** Applies Lagrance smoothing to adjust the missing values based on their neighbors.
-- **Visualization:** Visualizes the game map at each step of the smoothing process.
+- 👾 **Game Map Generation** 👾
+  - Creates a game map with random values and specified missing values.
+    
+- ⚙️ **Lagrance Smoothing** ⚙️
+  - Applies Lagrance smoothing to adjust the missing values based on their neighbors.
+
+- 📊 **Visualization** 📊
+  - Visualizes the game map at each step of the smoothing process.
 
 ## Installation
 1. **Clone the repository**: 
